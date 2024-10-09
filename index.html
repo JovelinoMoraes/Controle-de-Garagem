@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de garagem</h1>
+    <h2>Hotel Westphal</h2>
+    <div class="data">
+        <div id="divData">
+            <input type="date" name="data" id="data">
+            <button type="button" id="btnSalvarData">Salvar data</button>
+        </div>
+        <div id="dataHoje">
+            Data de Hoje
+        </div>
+    </div>
+    <main>
+        
+        <!-- Div cadastro-->
+        <div class="cadastro">
+            <label for="placa">Placa: </label>
+            <input type="text" name="placa" id="placa">
+            <label for="quarto">Quarto:</label>
+            <input type="text" name="quarto" id="quarto">
+            <label for="situ">(E/FC)</label>
+            <input type="text" name="situ" id="situ">
+            <!-- botão cadastrar-->
+            <input type="submit" value="Cadastrar" id="cadastrar">
+        </div>
+        <!-- Div resultado-->
+        <div class="resultado">Carros</div>
+        <div><input id="limpar" type="button" value="Limpar"><button id="btnImprimir">Imprimir</button></div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
